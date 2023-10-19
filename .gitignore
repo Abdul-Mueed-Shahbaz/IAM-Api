@@ -1,0 +1,61 @@
+# Ignore Python-specific files
+*.pyc
+__pycache__/
+
+# Ignore database files
+db.sqlite3
+
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore logs and generated files
+log/
+*.log
+
+# Ignore media and static files
+media/
+static/
+
+# Ignore environment configuration files
+.env
+
+# Ignore sensitive or secret information (e.g., configuration files)
+*.secrets
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore pycache and artifacts
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore coverage reports and test output
+htmlcov/
+.coverage
+.tox/
+dist/
+
+# Ignore .DS_Store files (for macOS)
+.DS_Store
+
+# Ignore node modules and npm artifacts
+node_modules/
+package-lock.json
+
+# Ignore compiled JavaScript and CSS files
+*.js
+*.css
+
+# Ignore migrations (if not already in .gitignore)
+**/migrations/
+
+# Ignore local settings (if used)
+local_settings.py
+
+# Ignore data files
+data/
+/build/build-env
